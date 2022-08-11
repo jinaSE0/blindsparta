@@ -20,13 +20,13 @@ export default function SignIn({toggleIsLogin}) {
     const pwInputRef = React.useRef();
 
     //로그인유무
-    const loginCheck = (user) => {
-        if (user) {
-            navigate('/') ;
-        } else {
-            navigate('/login');
-        }
-    };
+    // const loginCheck = (user) => {
+    //     if (user) {
+    //         navigate('/') ;
+    //     } else {
+    //         navigate('/login');
+    //     }
+    // };
   
     React.useEffect(() => {
         if (userId) {

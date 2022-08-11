@@ -18,8 +18,6 @@ function App() {
   },[]);
 
   const PrivateRoute = ({ children }) => {
-    
-  
     return userId ? ( children
     ) : (
       <Navigate to="/login" replace={true} />
